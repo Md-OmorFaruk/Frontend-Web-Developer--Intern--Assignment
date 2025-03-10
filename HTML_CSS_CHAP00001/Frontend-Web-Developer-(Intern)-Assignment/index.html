@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="navbar">
+      <!-- --------------------------MAIN NAVBAR------------------------------>
+
+      <nav class="navbar">
+        <div class="logo">
+          <img
+            src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Logo.png"
+            alt="Slothui"
+          />
+        </div>
+
+        <input type="checkbox" id="menu-checkbox" />
+        <label for="menu-checkbox" class="menu-toggle"
+          ><img
+            src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Monotone add.png"
+            alt="Menu"
+        /></label>
+
+        <ul class="nav-links">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Achievements</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+
+        <div class="auth-buttons">
+          <a href="#">Signup</a>
+          <a id="exception" href="#">Login</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!--------------------------- HERO SECTION ------------------------------>
+
+      <section class="Hero">
+        <div class="Hero-Part1">
+          <button class="Button">Design System For Gen Z</button>
+          <h1>Unleash Your Inner Design Sloth Today.</h1>
+          <p>
+            Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet.
+            Cras fermentum odio eu feugiat pretium nibh ipsum. Venenatis cras
+            sed felis eget velit aliquet.
+          </p>
+          <img
+            class="Hero-Part1"
+            src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Frame (1).png"
+            alt=""
+          />
+        </div>
+        <div class="Hero-Part2">
+          <img
+            class="Image-Part1"
+            src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Desktop-min 1.png"
+            alt=""
+          />
+          <img
+            class="Image-Part2"
+            src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/MockUp.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <!-- ----------------------Social Proof Section ------------------------->
+
+      <section class="Social-background">
+        <div class="Social">
+          <!-- First row (6 images) -->
+          <div class="Image-flex">
+            <img
+              class="brandimg"
+              src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Company Logo.png"
+              alt="Image 1"
+            />
+            <img
+              class="brandimg"
+              src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Company Logo (2).png"
+              alt="Image 2"
+            />
+            <img
+              class="brandimg"
+              src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Company Logo (2).png"
+              alt="Image 3"
+            />
+            <img
+              class="brandimg"
+              src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Company Logo (3).png"
+              alt="Image 4"
+            />
+            <img
+              class="brandimg"
+              src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Company Logo (4).png"
+              alt="Image 5"
+            />
+            <img
+              class="brandimg"
+              src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Company Logo (6).png"
+              alt="Image 6"
+            />
+          </div>
+
+          <!-- Second row (5 images) -->
+          <div class="Image-flex2">
+            <img
+              src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Company Logo (7).png"
+              alt="Image 7"
+            />
+            <img
+              src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Company Logo (8).png"
+              alt="Image 8"
+            />
+            <img
+              src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Company Logo (9).png"
+              alt="Image 9"
+            />
+            <img
+              src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Company Logo (10).png"
+              alt="Image 10"
+            />
+            <img
+              src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Company Logo (11).png"
+              alt="Image 11"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------------------Features Section --------------------------->
+
+      <section>
+        <div class="feature">
+          <button class="Button">Our Main Features</button>
+          <h1>Our Primary Features</h1>
+          <p>
+            Volutpat commodo sed egestas egestas fringilla phasellus. Tincidunt
+            eget nullam non nisi. Nisi porta lorem mollis aliquam ut porttitor
+            leo.
+          </p>
+          <section class="section-container">
+            <div class="section-box">
+              <img
+                src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Lightning.png"
+                alt="Icon 1"
+              />
+              <h1>Lazy Efficient</h1>
+              <p>
+                A cras semper auctor neque. Proin libero nunc consequat interdum
+                varius sit. Libero volutpat sed cras ornare arcu dui vivamus
+                arcu felis.
+              </p>
+            </div>
+
+            <div class="section-box">
+              <img
+                src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/GearSix.png"
+                alt="Icon 2"
+              />
+              <h1>Streamlined Process</h1>
+              <p>
+                Montes nascetur ridiculus mus mauris vitae ultricies leo integer
+                malesuada. Orci porta non pulvinar neque laoreet.
+              </p>
+            </div>
+
+            <div class="section-box">
+              <img
+                src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Broom.png"
+                alt="Icon 3"
+              />
+              <h1>Minimum Effort</h1>
+              <p>
+                Tincidunt eget nullam non nisi est sit amet facilisis magna.
+                Rhoncus dolor purus non enim praesent elementum.
+              </p>
+            </div>
+            <div class="section-box">
+              <img
+                src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/ChartLine.png"
+                alt="Icon 1"
+              />
+              <h1>Absolutely Easy To Use</h1>
+              <p>
+                Rutrum quisque non tellus orci ac. Purus viverra accumsan in
+                nisl. Id interdum velit laoreet id donec ultrices adisipicing
+                elit.
+              </p>
+            </div>
+
+            <div class="section-box">
+              <img
+                src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/BowlFood.png"
+                alt="Icon 2"
+              />
+              <h1>Just Sleep & Chill</h1>
+              <p>
+                Bibendum est ultricies integer quis auctor elit. Ultrices in
+                iaculis nunc sed. A scelerisque purus semper eget. Facilisi
+                morbi tempus iaculi.
+              </p>
+            </div>
+
+            <div class="section-box">
+              <img
+                src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/SmileyWink.png"
+                alt="Icon 3"
+              />
+              <h1>Don’t Worry About Life</h1>
+              <p>
+                Pharetra diam sit amet nisl suscipit adipiscing bibendum est.
+                Risus ultricies tristique nulla aliquet enim tortor.
+              </p>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <!-------------------------- Statistics Section -------------------------->
+      <section class="statistic">
+        <button class="Button">
+          <img
+            src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Icon Container.png"
+            alt=""
+          />
+        </button>
+        <h1>Work lazily and achieve the result you want.</h1>
+        <p>
+          Liquam id diam maecenas ultricies mi eget mauris pharetra et. Feugiat
+          pretium nibh ipsum consequat nisl vel pretium lectus. Fermentum
+          iaculis eu non diam.
+        </p>
+        <section class="stats-container">
+          <div class="stat-box">
+            <h2>440%</h2>
+            <p>Data Efficiency</p>
+          </div>
+          <div class="divider"></div>
+          <div class="stat-box">
+            <h2>708+</h2>
+            <p>Conversion Rate</p>
+          </div>
+          <div class="divider"></div>
+          <div class="stat-box">
+            <h2>182M</h2>
+            <p>ALLM Scale</p>
+          </div>
+        </section>
+      </section>
+
+      <!------------------------- Who is it for Section--------------------- -->
+
+      <section>
+        <div class="Feature">
+          <div class="Feature-Part1">
+            <button class="Button">Who is it for?</button>
+            <h1>What the procrastinators say</h1>
+            <p>
+              Mi ipsum faucibus vitae aliquet nec. At tempor commodo ullamcorper
+              a lacus. Bibendum at varius vel pharetra vel.
+            </p>
+          </div>
+          <div class="container">
+            <!-- Left Side Tabs -->
+            <div class="tabs">
+              <div class="tab active" onclick="changeImage(0)">
+                <h1>Convallis tellus id interdum velit</h1>
+                <p>
+                  Est pellentesque elit ullamcorper dignissim cras. In
+                  pellentesque massa placerat duis ultricies.
+                </p>
+              </div>
+              <div class="tab" onclick="changeImage(1)">
+                <h1>Id interdum velit laoreet id donec ultrices</h1>
+                <p>
+                  Donec massa sapien faucibus et molestie ac feugiat sed. Congue
+                  mauris rhoncus aenean vel elit scelerisque.
+                </p>
+              </div>
+              <div class="tab" onclick="changeImage(2)">
+                <h1>Sapien et ligula ullamcorper malesuada</h1>
+                <p>
+                  Donec massa sapien faucibus et molestie ac feugiat sed. Congue
+                  mauris rhoncus aenean vel elit scelerisque.
+                </p>
+              </div>
+            </div>
+
+            <!-- Right Side Image -->
+            <div class="image-container">
+              <img
+                src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Frame (2).png"
+                alt="Image 1"
+                class="active"
+              />
+              <img
+                src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/MockUp (1).png"
+                alt="Image 2"
+              />
+              <img
+                src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/MockUp.png"
+                alt="Image 3"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-------------------------- Testimonials Section ------------------------>
+
+      <section class="Testimonials-Main-Section">
+        <div class="Testimonial-Head">
+          <button class="Button">Testimonials</button>
+          <h1>What People Say</h1>
+          <p>
+            You can visit our office anytime but please don’t stalk us or don’t
+            be creepy.
+          </p>
+        </div>
+        <section class="testimonial-section">
+          <div class="testimonials">
+            <div class="testimonial">
+              <div class="stars">★★★★★</div>
+              <p class="quote">
+                Lorem ipsum dolor sit amet, consectetur ad-zzz-ing elit. Proin
+                vel urna at metus tempor mattis, or not, whatever.
+              </p>
+              <div class="user">
+                <img
+                  src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Avatar.png"
+                  alt="User Avatar"
+                  class="avatar"
+                />
+                <div class="user-info">
+                  <h3>X_AE_A-13</h3>
+                  <p>Product Designer, slothUI</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial">
+              <div class="stars">★★★★★</div>
+              <p class="quote">
+                Posuere urna nec tincidunt praesent semper feugiat nibh sed.
+                Velit dignissim sodales ut eu.
+              </p>
+              <div class="user">
+                <img
+                  src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Avatar (1).png"
+                  alt="User Avatar"
+                  class="avatar"
+                />
+                <div class="user-info">
+                  <h3>Azunyan U. Wu</h3>
+                  <p>CEO, nextlife.ai</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial">
+              <div class="stars">★★★☆☆</div>
+              <p class="quote">
+                Sit amet est placerat in. Blandit cursus risus at ultrices mi
+                tempus imperdiet. Volutpat commodo sed egestas egestas fringilla
+                phasellus. Tincidunt eget nullam non nisi. 
+              </p>
+              <div class="user">
+                <img
+                  src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Avatar (2).png"
+                  alt="User Avatar"
+                  class="avatar"
+                />
+                <div class="user-info">
+                  <h3>Jane Smith</h3>
+                  <p>Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial">
+              <div class="stars">★★★★★</div>
+              <p class="quote">
+                Nisi porta lorem mollis aliquam ut porttitor leo. Sed odio morbi
+                quis commodo. Arcu non odio euismod lacinia at quis. Nec
+                sagittis aliquam malesuada bibendum arcu vitae elementum
+                curabitur vitae.
+              </p>
+              <div class="user">
+                <img
+                  src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Avatar (3).png"
+                  alt="User Avatar"
+                  class="avatar"
+                />
+                <div class="user-info">
+                  <h3>Oarack Babama</h3>
+                  <p>Former President of US</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial show">
+              <div class="stars">★★★★☆</div>
+              <p class="quote">
+                Accumsan tortor posuere ac ut consequat. Quis varius quam
+                quisque id diam vel. Commodo odio aenean sed adipiscing diam
+                donec adipiscing. Vel pharetra vel turpis nunc eget.
+              </p>
+              <div class="user">
+                <img
+                  src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Avatar (4).png"
+                  alt="User Avatar"
+                  class="avatar"
+                />
+                <div class="user-info">
+                  <h3>Saylor Twift</h3>
+                  <p>Famous Singer</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial show">
+              <div class="stars">★★★☆☆</div>
+              <p class="quote">
+                Venenatis cras sed felis eget velit aliquet. Velit scelerisque
+                in dictum non consectetur. Felis eget velit aliquet sagittis.
+                Ultricies integer quis auctor elit sed vulputate mi. 
+              </p>
+              <div class="user">
+                <img
+                  src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Avatar (5).png"
+                  alt="User Avatar"
+                  class="avatar"
+                />
+                <div class="user-info">
+                  <h3>Asuna Yuuki</h3>
+                  <p>Virtual Swordsman</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial show">
+              <div class="stars">★★★☆☆</div>
+              <p class="quote">
+                Sagittis eu volutpat odio facilisis mauris sit amet massa. Urna
+                et pharetra pharetra massa.
+              </p>
+              <div class="user">
+                <img
+                  src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Avatar (6).png"
+                  alt="User Avatar"
+                  class="avatar"
+                />
+                <div class="user-info">
+                  <h3>Boe Jiden</h3>
+                  <p>Former President Of Canada</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial show">
+              <div class="stars">★★★★★</div>
+              <p class="quote">
+                 Cras fermentum odio eu feugiat pretium nibh ipsum consequat
+                nisl. Nec nam aliquam sem et tortor consequat id porta nibh.
+                Viverra suspendisse. Lacus sed viverra tellus in hac habitasse
+                platea dictumst. Elit at imperdiet dui accumsan.
+              </p>
+              <div class="user">
+                <img
+                  src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Avatar (7).png"
+                  alt="User Avatar"
+                  class="avatar"
+                />
+                <div class="user-info">
+                  <h3>Vermillion D. Gray</h3>
+                  <p>CEO, hacklife.ai</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial show">
+              <div class="stars">★★★★☆</div>
+              <p class="quote">
+                Viverra accumsan in nisl nisi scelerisque eu. Vitae congue eu
+                consequat ac felis donec.
+              </p>
+              <div class="user">
+                <img
+                  src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Avatar (8).png"
+                  alt="User Avatar"
+                  class="avatar"
+                />
+                <div class="user-info">
+                  <h3>Zuckman Wu</h3>
+                  <p>CEO, tech4life.ai</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial hidden">
+              <div class="stars">★★★★★</div>
+              <p class="quote">
+                "Great service! Would definitely recommend to others."
+              </p>
+              <div class="user">
+                <img
+                  src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Avatar.png"
+                  alt="User Avatar"
+                  class="avatar"
+                />
+                <div class="user-info">
+                  <h3>Jane Smith</h3>
+                  <p>Developer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial hidden">
+              <div class="stars">★★★☆☆</div>
+              <p class="quote">
+                "It was okay, nothing special, but not bad either."
+              </p>
+              <div class="user">
+                <img
+                  src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Avatar (1).png"
+                  alt="User Avatar"
+                  class="avatar"
+                />
+                <div class="user-info">
+                  <h3>Michael Brown</h3>
+                  <p>Manager</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial hidden">
+              <div class="stars">★★★★★</div>
+              <p class="quote">"Fantastic! Exceeded my expectations!"</p>
+              <div class="user">
+                <img
+                  src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Avatar (2).png"
+                  alt="User Avatar"
+                  class="avatar"
+                />
+                <div class="user-info">
+                  <h3>Emily Johnson</h3>
+                  <p>Marketer</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial hidden">
+              <div class="stars">★★★☆☆</div>
+              <p class="quote">
+                Venenatis cras sed felis eget velit aliquet. Velit scelerisque
+                in dictum non consectetur. Felis eget velit aliquet sagittis.
+                Ultricies integer quis auctor elit sed vulputate mi. 
+              </p>
+              <div class="user">
+                <img
+                  src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Avatar (5).png"
+                  alt="User Avatar"
+                  class="avatar"
+                />
+                <div class="user-info">
+                  <h3>Asuna Yuuki</h3>
+                  <p>Virtual Swordsman</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial hidden">
+              <div class="stars">★★★☆☆</div>
+              <p class="quote">
+                Sagittis eu volutpat odio facilisis mauris sit amet massa. Urna
+                et pharetra pharetra massa.
+              </p>
+              <div class="user">
+                <img
+                  src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Avatar (6).png"
+                  alt="User Avatar"
+                  class="avatar"
+                />
+                <div class="user-info">
+                  <h3>Boe Jiden</h3>
+                  <p>Former President Of Canada</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button id="loadMore" class="load-more">Load More+</button>
+        </section>
+      </section>
+
+      <!----------------------------- Contact Section ----------------------->
+
+      <section class="Contact">
+        <div class="Feature-Part1">
+          <button class="Button">Visit Us Anytime</button>
+          <h1>Our Office</h1>
+          <p>
+            You can visit our office anytime but please don’t stalk us or don’t
+            be creepy.
+          </p>
+        </div>
+        <div class="Main-Contact">
+          <div class="section-contact">
+            <img
+              src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Vector (1).png"
+              alt="Icon 1"
+            />
+            <h1>Japan</h1>
+            <p>
+              221b Banzai Street <br />
+              Tokyo, TO 77812
+            </p>
+          </div>
+
+          <div class="section-contact">
+            <img
+              src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Vector (1).png"
+              alt="Icon 2"
+            />
+            <h1>USA</h1>
+            <p>
+              221b Freedom Street <br />
+              New York, NY 21231
+            </p>
+          </div>
+
+          <div class="section-contact">
+            <img
+              src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Vector (1).png"
+              alt="Icon 3"
+            />
+            <h1>Canada</h1>
+            <p>
+              221b Maple Syrup Street <br />
+              Ottawa, OW 77847
+            </p>
+          </div>
+          <div class="section-contact">
+            <img
+              src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Vector (1).png"
+              alt="Icon 3"
+            />
+            <h1>South Korea</h1>
+            <p>221b Samyang Street <br />Gangnam, GM 22124</p>
+          </div>
+        </div>
+      </section>
+
+      <!---------------------------- FAQ Section ------------------------------->
+
+      <section class="faq">
+        <div class="faq-container">
+          <div class="Testimonial-Head">
+            <button class="Button">FAQ</button>
+            <h1>Frequently Asked Questions</h1>
+            <p>
+              Fermentum iaculis eu non diam phasellus vestibulum. Volutpat
+              commodo sed egestas egestas fringilla phasellus. Donec ac odio
+              tempor orci dapibus ultrices.
+            </p>
+          </div>
+
+          <div class="pad">
+            <details>
+              <summary>
+                Enim sed faucibus turpis in eu mi bibendum neque egestas?
+              </summary>
+              <p>
+                Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In
+                metus vulputate eu scelerisque felis imperdiet proin fermentum
+                leo. Diam quis enim lobortis scelerisque fermentum dui faucibus.
+                Urna nunc id cursus metus aliquam eleifend mi. Gravida quis
+                blandit turpis cursus in hac.
+              </p>
+            </details>
+
+            <details>
+              <summary>
+                Amet consectetur adipiscing elit pellentesque habitant morbi
+                tristique?
+              </summary>
+              <p>
+                Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In
+                metus vulputate eu scelerisque felis imperdiet proin fermentum
+                leo. Diam quis enim lobortis scelerisque fermentum dui faucibus.
+                Urna nunc id cursus metus aliquam eleifend mi. Gravida quis
+                blandit turpis cursus in hac.
+              </p>
+            </details>
+
+            <details>
+              <summary>
+                Elit pellentesque habitant morbi tristique senectus?
+              </summary>
+              <p>
+                Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In
+                metus vulputate eu scelerisque felis imperdiet proin fermentum
+                leo. Diam quis enim lobortis scelerisque fermentum dui faucibus.
+                Urna nunc id cursus metus aliquam eleifend mi. Gravida quis
+                blandit turpis cursus in hac.
+              </p>
+            </details>
+
+            <details>
+              <summary>
+                Gravida quis blandit turpis cursus in hac. Mi ipsum faucibus
+                vitae aliquet nec?
+              </summary>
+              <p>
+                Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In
+                metus vulputate eu scelerisque felis imperdiet proin fermentum
+                leo. Diam quis enim lobortis scelerisque fermentum dui faucibus.
+                Urna nunc id cursus metus aliquam eleifend mi. Gravida quis
+                blandit turpis cursus in hac.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Est pellentesque elit ullamcorper dignissim cras. In
+                pellentesque massa placerat?
+              </summary>
+              <p>
+                Mattis ullamcorper velit sed ullamcorper morbi tincidunt. In
+                metus vulputate eu scelerisque felis imperdiet proin fermentum
+                leo. Diam quis enim lobortis scelerisque fermentum dui faucibus.
+                Urna nunc id cursus metus aliquam eleifend mi. Gravida quis
+                blandit turpis cursus in hac.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-------------------------------- CTA Section ---------------------------->
+
+      <section class="Main-CTA">
+        <div class="Cta">
+          <div class="cta-head">
+            <h1>Let’s Download The App.</h1>
+            <p>
+              Velit scelerisque in dictum non consectetur. Felis eget velit
+              aliquet sagittis. Ultricies integer quis auctor elit sed vulputate
+              mi. Massa id neque aliquam vestibulum morbi blandit cursus.
+            </p>
+            <button class="Double-Button">Learn More</button>
+            <button class="Double-Button Double-Button1">Get Startes</button>
+          </div>
+          <div class="CTA-Img">
+            <img
+              class="image1"
+              src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/cta.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <img
+          class="iamge2"
+          src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/MockUp (1).png"
+          alt=""
+        />
+        <div class="for-mobile">
+          <img
+            class="mobile1"
+            src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/cta1.png"
+            alt=""
+          />
+          <img
+            class="mobile2"
+            src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/cta2.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <!-----------------------------------Footer Section---------------------->
+
+      <footer>
+        <!-- Secondary Footer -->
+        <div class="Secondary-Footer">
+          <div>
+            <h4 class="footer-title">Site Map</h4>
+            <div>
+              <a class="link link-hover">Homepage</a>
+              <a class="link link-hover">Product</a>
+              <a class="link link-hover">Services</a>
+              <a class="link link-hover">Technology</a>
+              <a class="link link-hover">About Us</a>
+              <a class="link link-hover">Contact Us</a>
+            </div>
+          </div>
+          <div>
+            <h4 class="footer-title">Services</h4>
+            <a class="link link-hover">Service Lineup 1</a>
+            <a class="link link-hover">Service Lineup 2</a>
+            <a class="link link-hover">Service Lineup 3</a>
+            <a class="link link-hover">Service Lineup 4</a>
+            <a class="link link-hover">Service Lineup 5</a>
+            <a class="link link-hover">Service Lineup 6</a>
+          </div>
+          <div>
+            <h4 class="footer-title">Product</h4>
+            <a class="link link-hover">Product Lineup 1</a>
+            <a class="link link-hover">Product Lineup 2</a>
+            <a class="link link-hover">Product Lineup 3</a>
+            <a class="link link-hover">Product Lineup 4</a>
+            <a class="link link-hover">Product Lineup 5</a>
+            <a class="link link-hover">Product Lineup 6</a>
+          </div>
+          <div>
+            <h4 class="footer-title">Help & Support</h4>
+            <a class="link link-hover">Live Chat</a>
+            <a class="link link-hover">Email Support</a>
+            <a class="link link-hover">Product Refund</a>
+            <a class="link link-hover">Submit Feedback</a>
+            <a class="link link-hover">Help Ticket</a>
+            <a class="link link-hover">Call Center</a>
+          </div>
+          <div>
+            <h4 class="footer-title">Legal</h4>
+            <a class="link link-hover">Privacy Policy</a>
+            <a class="link link-hover">HIPAA Notice</a>
+            <a class="link link-hover">Data Policy</a>
+            <a class="link link-hover">AI Privacy</a>
+            <a class="link link-hover">Terms & Conditions</a>
+            <a class="link link-hover">PricLawyer’s Cornering</a>
+          </div>
+          <div>
+            <h4 class="footer-title">Pricing</h4>
+            <a class="link link-hover">Pricing Tier 1</a>
+            <a class="link link-hover">Pricing Tier 2</a>
+            <a class="link link-hover">Pricing Tier 3</a>
+            <a class="link link-hover">Pricing Tier 4</a>
+            <a class="link link-hover">Pricing Tier 5</a>
+            <a class="link link-hover">Pricing Tier 6</a>
+          </div>
+        </div>
+        <hr class="solid" />
+        <!-- Primary Footer -->
+        <div class="berelative">
+          <div class="Primary-Footer">
+            <img
+              src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/Logo.png"
+              alt=""
+            />
+
+            <p>Copyright 2028 slothUI, All Rights Reserved.</p>
+          </div>
+          <div class="arrow">
+            <a href="#navbar">
+              <img
+                src="/HTML_CSS_CHAP00001/Frontend-Web-Developer-(Intern)-Assignment/assets/arrow.png"
+                alt="Go to Navbar"
+              />
+            </a>
+          </div>
+        </div>
+      </footer>
+
+      <!-- ---------------------------javascript----------------------------- -->
+
+      <script>
+        //-----------------------Javascript fot Who is it for Secton----------------------
+        function changeImage(index) {
+          // Remove "active" class from all tabs
+          document
+            .querySelectorAll(".tab")
+            .forEach((tab) => tab.classList.remove("active"));
+          // Add "active" class to clicked tab
+          document.querySelectorAll(".tab")[index].classList.add("active");
+
+          // Hide all images
+          document
+            .querySelectorAll(".image-container img")
+            .forEach((img) => img.classList.remove("active"));
+          // Show the selected image
+          document
+            .querySelectorAll(".image-container img")
+            [index].classList.add("active");
+        }
+
+        //--------------------- TESTIMONIAL SECTION------------------------
+        document
+          .getElementById("loadMore")
+          .addEventListener("click", function () {
+            document
+              .querySelectorAll(".testimonial.hidden")
+              .forEach((testimonial) => {
+                testimonial.style.display = "block"; // Show hidden testimonials
+              });
+            this.style.display = "none"; // Hide the button after clicking
+          });
+      </script>
+    </main>
+  </body>
+</html>
