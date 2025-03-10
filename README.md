@@ -1,4 +1,4 @@
-# Intert website
+# Website link : https://67cf0893e365a723ccf60b28--golden-mandazi-c4cf7a.netlify.app/
 
 ## 🚀 Overview
 This is a fully responsive website built using **Vanilla HTML, CSS, and JavaScript**. The project follows a **pixel-perfect** design approach and implements various interactive features as per the given requirements.
